@@ -1,12 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `WordPress Gatsby Starter`,
-    author: `Justin W Hall`,
-    description: `A Gatsby WordPress Starter with special love for Netlify`,
-    siteUrl: `https://gatsby-wordpress-netlify-production.netlify.com`,
-    social: {
-      twitter: `justinwhall`,
-    },
+    title: `Sirf Hungama`,
+    author: `Hungama`,
+    description: `A Renowed Blog`,
+    siteUrl: `https://sirfhungama.netlify.com`,
     postPrefix : '/blog',
     pagePrefix: '',
   },
@@ -29,7 +26,7 @@ module.exports = {
       resolve: 'gatsby-source-wordpress',
       options: {
         // The base url to your WP site.
-        baseUrl: 'gatsbynetliflydemo.justinwhall.com',
+        baseUrl: 'sirfhungama.com',
         // baseUrl: 'data.justinwhall.com',
         // baseUrl: 'wpgatsby.wtf',
         // WP.com sites set to true, WP.org set to false
