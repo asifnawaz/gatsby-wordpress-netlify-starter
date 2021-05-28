@@ -3,7 +3,7 @@ module.exports = {
     title: `Sirf Hungama`,
     author: `Hungama`,
     description: `A Renowed Blog`,
-    siteUrl: `https://sirfhungama.netlify.com`,
+    siteUrl: `https://sirfhungama.netlify.app`,
     postPrefix : '/blog',
     pagePrefix: '',
   },
@@ -30,7 +30,7 @@ module.exports = {
         // baseUrl: 'data.justinwhall.com',
         // baseUrl: 'wpgatsby.wtf',
         // WP.com sites set to true, WP.org set to false
-        hostingWPCOM: false,
+        hostingWPCOM: true,
         // The protocol. This can be http or https.
         protocol: 'https',
         // Use 'Advanced Custom Fields' Wordpress plugin
